@@ -1,0 +1,93 @@
+.login {
+    background: #0CB863;
+    font-family: "Courier New", "sans-serif";
+    padding: 0;
+    margin: 0
+}
+
+.login * {
+    box-sizing: border-box;
+    font-family: "proxima-nova", helvetica, "sans-serif"
+}
+
+.form p {
+    color: red;
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+
+.login .form {
+    height: 100%;
+    margin: 40px auto 0;
+    width: 400px;
+    padding: 40px;
+    border-radius: 3px;
+    background: white
+}
+
+.login .form legend {
+    text-align: center;
+    font-weight: 300;
+    color: #565656;
+    margin: 0 auto 45px;
+    font-size: 35px;
+    line-height: 38px;
+    text-transform: none;
+    letter-spacing: 0
+}
+
+.login .form input[type='email'],
+.login .form input[type='password'] {
+    background: #fcfcfc;
+    border: 2px solid #e7e7e7;
+    margin: 10px auto;
+    padding: 15px;
+    width: 100%;
+    display: block;
+    border-radius: 3px;
+    font-size: 18px;
+    transition: opacity 0.4s;
+    text-align: left;
+}
+
+.login .form input[type='email']:focus,
+.login .form input[type='password']:focus,
+.login .form input[type='submit']:focus {
+    border-color: #E7E7E7;
+    box-shadow: lightseagreen;
+}
+
+.login .form input[type='submit'] {
+    color: white;
+    background: #0080ff;
+    border: 0;
+    width: 100%;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    cursor: hand;
+    margin: 15px auto;
+    height: 48px;
+}
+
+.login .footer {
+    text-align: center;
+    color: white;
+    margin: 20px auto
+}
+
+.login .footer a {
+    font-weight: 600;
+    border: 0;
+    padding: 0
+}
+
+.login .footer a:hover {
+    color: #E7F1F9
+}
+
+.login div {
+    margin-bottom: 30px;
+}
