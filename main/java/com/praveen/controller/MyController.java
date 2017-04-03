@@ -127,7 +127,7 @@ public class MyController {
         Content content = new Content("text/plain", c);
         Mail mail = new Mail(from, subject, to, content);
 
-        SendGrid sg = new SendGrid("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");
+        SendGrid sg = new SendGrid("<API-KEY>");
         Request request = new Request();
         try {
             request.method = Method.POST;
